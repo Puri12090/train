@@ -1,0 +1,14 @@
+path: /content/YOLO11m-Car-Damage-Detector
+
+train: images/val
+val: images/val
+test: images/val
+
+nc: 6
+names:
+  - broken_lamp
+  - crack
+  - dent
+  - flat_tire
+  - scratch
+  - shattered_glass
